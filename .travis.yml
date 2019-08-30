@@ -1,8 +1,4 @@
-deploy:
-  provider: script
-  script: ls
-  on:
-    branch: master
+script: ls
 notifications:
   webhooks:
     urls:
