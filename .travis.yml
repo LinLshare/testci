@@ -1,4 +1,4 @@
-script: ls
+script: env
 notifications:
   webhooks:
     urls:
